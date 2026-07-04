@@ -365,11 +365,3 @@ raw data
 
 The most repeated pipeline logic has been moved into `src/pipeline.py`. The
 notebooks remain the primary execution and documentation layer.
-
-Useful next consolidation steps:
-
-- move metric functions such as the C-MAPSS score into `src/evaluation.py`
-- move maintenance cost and policy helpers into `src/simulation.py`
-- replace `globals().update(...)` with explicit unpacking if stronger notebook
-  transparency is preferred
-- rerun all notebooks from a fresh kernel after changing datasets
