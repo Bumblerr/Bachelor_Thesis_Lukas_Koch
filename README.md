@@ -343,6 +343,11 @@ Then run the notebooks in numerical order from `01` to `08`.
 If you change `src/config.py`, restart the notebook kernel and rerun the
 notebook from the top so that the updated configuration is loaded.
 
+The committed notebooks include saved outputs that document the results used for
+the project. Re-running the notebooks may lead to small numerical or visual
+differences because some models are retrained and execution environments can
+vary slightly.
+
 ## Current Status
 
 The project currently contains a complete notebook-based end-to-end workflow:
