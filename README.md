@@ -323,7 +323,9 @@ Main dependencies include:
 Open the project root as the working directory:
 
 ```bash
-cd Bachelorarbeit_v1
+cd Bachelor_Thesis_Lukas_Koch
+or
+Open the project root directory
 ```
 
 Start Jupyter:
